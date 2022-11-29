@@ -2,7 +2,7 @@
     <header class="header-area navbar-light fixed-top" :class="{'is-sticky': isSticky}">
         <div class="container-fluid container-fluid--cp-150">
             <nav class="navbar navbar-expand-lg" id="navbar-example2">
-
+                 
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="nav main-menu">
                         <li class="nav-item">
