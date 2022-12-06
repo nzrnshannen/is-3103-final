@@ -1,15 +1,17 @@
 <template>
     <div class="main-container">
-        <Navbar />
+        <Logo />
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
             <HeroBranding />
-
+            <Menu1/>
+            <Menu2/>
             <div class="box-image-area section-space--ptb_120" id="about">
                 <div class="container">
                     <div class="section-title-wrapper text-center section-space--mb_60 wow move-up">
                         <h2 class="section-title mb-15">Expand Your Business</h2>
                         <span class="section-text">Plan ahead to make progress and lead the trend.</span>
                     </div>
+
                     <AboutExpand />
                 </div>
             </div>
@@ -82,13 +84,23 @@
             <Newsletter /> 
             <FooterMain />
             <OffcanvasSearchBox />
+            
+            
+
+            
+            
+            
         </div>
 
     </div>
+   
 </template>
 
+
 <script>
-    import Navbar from '../components/Navbar'
+    import Logo from '../components/Logo.vue'
+    import Menu1 from '../components/Menu1.vue'
+    import Menu2 from '../components/Menu2.vue'
     import HeroBranding from '../components/HeroBranding'
     import AboutExpand from '../components/AboutExpand'
     import FeatureList from '../components/FeatureList'
@@ -101,11 +113,27 @@
     import Newsletter from '../components/Newsletter'
     import FooterMain from '../components/FooterMain'
     import OffcanvasSearchBox from '../components/OffcanvasSearchBox'
-
+    import ThreeStepProcessWrap from '../components/ThreeStepProcessWrap'
+    import TestimonialTwo from '../components/TestimonialTwo'
+    import TestimonialThree from '../components/TestimonialThree'
+    import TestimonialOne from '../components/TestimonialOne'
+    import TestimonialFour from '../components/TestimonialFour'
+    import TeamTwo from '../components/TeamTwo'
+    import TeamOne from '../components/TeamOne'
+    import TabTwoContentOne from '../components/TabTwoContentOne'
+    import TabTwo from '../components/TabTwo'
+    import TabThree from '../components/TabThree'
+    import TabOne from '../components/TabOne'
+    import TabContentOne from '../components/TabContentOne'
+    import TabContentTwo from '../components/TabContentTwo'
+    import TabContentThree from '../components/TabContentThree'
+    import SideBarBlog from '../components/SidebarBlog.vue'
+    
     export default {
         name: 'HomeBranding',
         components: {
-            Navbar,
+            Logo,
+            Menu1,
             HeroBranding,
             AboutExpand,
             FeatureList,
@@ -117,7 +145,24 @@
             BrandLogo,
             Newsletter,
             FooterMain,
-            OffcanvasSearchBox
-        },
+            OffcanvasSearchBox,           
+            ThreeStepProcessWrap,
+            TestimonialTwo,
+            TestimonialThree,
+            TestimonialOne,
+            TestimonialFour,
+            TeamTwo,
+            TeamOne,
+            TabTwoContentOne,
+            TabTwo,
+            TabThree,
+            TabOne,
+            TabContentOne,
+            TabContentTwo,
+            TabContentThree,
+            SideBarBlog,
+            Menu2,
+            
+        }
     }
 </script>

@@ -18,9 +18,6 @@
   let className = undefined;
   export { className as class };
 
-  export let tag = 'div';
-  export let wrapperTag = 'div';
-
   let containerClasses = 'swiper';
   let breakpointChanged = false;
   let swiperInstance = null;
@@ -151,18 +148,17 @@
   });
 </script>
 
-<svelte:element
-  this={tag}
+<div
   bind:this={swiperEl}
   class={uniqueClasses(`${containerClasses}${className ? ` ${className}` : ''}`)}
   {...restProps}
 >
   <slot name="container-start" />
-  <svelte:element this={wrapperTag} class="swiper-wrapper">
+  <div class="swiper-wrapper">
     <slot name="wrapper-start" />
     <slot {virtualData} />
     <slot name="wrapper-end" />
-  </svelte:element>
+  </div>
   {#if needsNavigation(swiperParams)}
     <div bind:this={prevEl} class="swiper-button-prev" />
     <div bind:this={nextEl} class="swiper-button-next" />
@@ -174,4 +170,4 @@
     <div bind:this={paginationEl} class="swiper-pagination" />
   {/if}
   <slot name="container-end" />
-</svelte:element>
+</div>
