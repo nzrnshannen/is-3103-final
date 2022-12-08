@@ -11,7 +11,7 @@
     
                 >
                     <swiper-slide class="swiper-slide" :style="bgImg" >
-                        <div class="hero-item">
+                        <div class="hero-item" >
                             <div class="hero-content" >
                                 <h2 class="h1 hero-content-title">Health Services Advisory</h2>
                                 <h6 class="hero-content-subtitle">You can now book online for medical consultation with the CFI doctor in our clinic, and issuance of letter of authority (LOA) using our CFI helpdesk. Download the CFI Online app on Google Playstore for Android and App Store for IOS.</h6>
