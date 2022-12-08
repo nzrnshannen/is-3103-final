@@ -1,6 +1,8 @@
 <template>
     <div class="main-container">
+        <!--Navbar below Logo-->
         <Navbar />
+         <!--Navbar above the Header Banner-->
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
             <HeroBranding />
 
@@ -79,8 +81,16 @@
                     <BrandLogo />
                 </div>
             </div>
+            
+            <!--HeroSoftware (Advisory/Announcement)-->
+            <HeroSoftware />
+            <!--HeroSofware (Advisory/Announcement)-->
+            
             <Newsletter /> 
+            
+            <!--FooterMain (Contact Us) below the News Articles-->
             <FooterMain />
+            <!--FooterMain (Contact Us) above the FooterBottom (Social Media Links)-->
             <OffcanvasSearchBox />
         </div>
 
@@ -101,6 +111,8 @@
     import Newsletter from '../components/Newsletter'
     import FooterMain from '../components/FooterMain'
     import OffcanvasSearchBox from '../components/OffcanvasSearchBox'
+    import HeroSoftware from '../components/HeroSoftware.vue'
+    
 
     export default {
         name: 'HomeBranding',
@@ -117,7 +129,8 @@
             BrandLogo,
             Newsletter,
             FooterMain,
-            OffcanvasSearchBox
+            OffcanvasSearchBox,
+            HeroSoftware
         },
     }
 </script>
