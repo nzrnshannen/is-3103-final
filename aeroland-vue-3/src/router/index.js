@@ -169,10 +169,12 @@ const routes = [
     {
         path: '/investment',
         name: 'Investment',
-        component: () => import('../components/sections/Investment.vue')
-
-
-
+        component: () => import('../components/sections/Investment.vue'),
+    },
+    {
+        path: '/termsconditions',
+        name: 'Terms & Conditions',
+        component: () => import('../components/sections/Terms&Conditions.vue'),
     }
 ];
   
