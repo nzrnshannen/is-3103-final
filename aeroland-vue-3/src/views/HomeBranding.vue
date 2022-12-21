@@ -87,7 +87,7 @@
             <!--HeroSofware (Advisory/Announcement)-->
             
             <Newsletter /> 
-            
+            <NewsArticlePreview/>
             <!--FooterMain (Contact Us) below the News Articles-->
             <FooterMain />
             <!--FooterMain (Contact Us) above the FooterBottom (Social Media Links)-->
@@ -112,25 +112,27 @@
     import FooterMain from '../components/FooterMain'
     import OffcanvasSearchBox from '../components/OffcanvasSearchBox'
     import HeroSoftware from '../components/HeroSoftware.vue'
+    import NewsArticlePreview from '../components/sections/NewsArticlePreview.vue'
     
 
     export default {
         name: 'HomeBranding',
         components: {
-            Navbar,
-            HeroBranding,
-            AboutExpand,
-            FeatureList,
-            RequireList,
-            FeatureTwo,
-            ProgressCircle,
-            CurveShape,
-            Pricing,
-            BrandLogo,
-            Newsletter,
-            FooterMain,
-            OffcanvasSearchBox,
-            HeroSoftware
-        },
+    Navbar,
+    HeroBranding,
+    AboutExpand,
+    FeatureList,
+    RequireList,
+    FeatureTwo,
+    ProgressCircle,
+    CurveShape,
+    Pricing,
+    BrandLogo,
+    Newsletter,
+    FooterMain,
+    OffcanvasSearchBox,
+    HeroSoftware,
+    NewsArticlePreview
+},
     }
 </script>
