@@ -14,6 +14,7 @@
             <PricingFour />
         </div>
     </div>
+    <hr>
 </template>
 
 <script>
