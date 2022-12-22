@@ -175,7 +175,12 @@ const routes = [
         path: '/termsconditions',
         name: 'Terms & Conditions',
         component: () => import('../components/sections/Terms&Conditions.vue'),
-    }
+    },
+    {
+        path: '/commonprovisions',
+        name: 'Common Provisions',
+        component: () => import('../components/sections/CommonProvisions.vue'),
+    },
 ];
   
 const router = createRouter({
