@@ -85,6 +85,40 @@
                 
             </div>
         </div>
+        <hr>
+        <h5 class="margin2"  style="margin-top:2rem;"><img class="margin3" src="../../assets/img/commisions-bell.jpg" width="4%">Loan in Default</h5>
+        <div>
+           
+                <div>
+                    <p class="alignp4">Money placements of members with the cooperative for a certain period of time. This can either be in the form of Regular Savings or Time Deposits.</p>
+                    <br>
+                    <p class="alignp3">1. Consequences of Default</p>
+                    <p class="alignp3">2. The following are the consequences of having a loan deemed in default:</p>
+                    <p class="alignp3">3. In case of loans payable by installments, the entire principal balance, including the accumulated interest and penalties will become due and dependable</p>
+                    <p class="alignp3">4. Loans declared in default will incur additional penalties and interest at the rate of 2% per month.</p>
+                    <p class="alignp3">5. Membership is suspended.</p>
+                    <p class="alignp3">6. The name of the defaulting member and his loan in default will be submitted to the Credit Information Corporation for Blacklisting pursuant to Republic Act 9510.</p>
+                    <p class="alignp3">7. The defaulting member’s deposits with any bank in the Philippines will be attached to answer for the loan in default pursuant to Article 59 of Republic Act  9820, known as the Cooperative</p>
+                    <p class="alignp3">8. Code of the Philippines</p>
+                    <p class="alignp3">9. Civil Action for collection will be filed in Court.</p>
+                    <br>
+                    <br>  
+                </div>
+                <hr>
+                <h5 class="margin2"  style="margin-top:2rem;"><img class="margin3" src="../../assets/img/patronage.jpg" width="4%">Patronage Refund</h5>
+                <div>
+                    <p class="alignp4">This is a form of interest rebate given to members at the end of the year and computed in accordance with a certain percentage of the total interest paid by the member in a given year for loans with CFI.</p>
+                    <br>
+                    <p class="alignp5">Presently, the patronage refund is equivalent to 8% of the total amount of interest paid by the member in a year.</p>
+                    <br>
+                    <p class="alignp5">To qualify for this type of refund, the borrowing member must have no loan in default.</p>
+                    <br>
+                    <br>  
+                </div>
+           
+        </div>
+    
+    
     </div>
 </template>
 
@@ -108,6 +142,8 @@
     padding-right:10px;
     padding-bottom:5px;
 }
+
+
 
 .margin4{
     margin-top: -5.5rem;
@@ -135,6 +171,33 @@
 .alignp2{
     text-align:left;
     padding-left:1.5rem;
+}
+
+.alignp3{
+    text-align:justify;
+    padding-left:13.3rem;
+    padding-right:12.5rem;
+    font-size: 16px;
+    margin-top:-1rem;
+    
+}
+
+.alignp4{
+    text-align:justify;
+    padding-left:13.3rem;
+    padding-right:12.5rem;
+    padding-top:1rem;
+    font-size: 19px;
+    
+}
+
+.alignp5{
+    text-align:justify;
+    padding-left:13.3rem;
+    padding-right:12.5rem;
+    margin-top:-1.3rem;
+    font-size: 19px;
+    
 }
 
 </style>

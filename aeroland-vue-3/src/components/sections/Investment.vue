@@ -40,7 +40,7 @@
                         <div class="pricing-table__image">
                             <img src="">
                         </div>
-                        <h4 class="margin2"><img class="margin3" src="../../assets/img/share-capital.jpg" width="4%">Share Capital</h4>
+                        <h4 class="margin2"><img class="margin3" src="../../assets/img/share-capital.jpg" width="4%">Loan in Default</h4>
                     </div>
                     <div class="pricing-table__body">
                        <p class="alignp1">As a member, he is allowed to make equity contributions to the capital fund of the COOP in the form of Share Capital.</p>
