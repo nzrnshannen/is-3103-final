@@ -166,6 +166,12 @@ const routes = [
         name: 'BlogDetails',
         component: () => import(/* webpackChunkName: "BlogDetails" */ '../views/blog/BlogDetails.vue'),
     },
+
+    {
+        path: '/view-all-articles',
+        name: 'ViewAllArticles',
+        component: () => import(/* webpackChunkName: "BlogDetails" */ '../components/sections/ViewAllArticles.vue')
+    }
 ];
   
 const router = createRouter({

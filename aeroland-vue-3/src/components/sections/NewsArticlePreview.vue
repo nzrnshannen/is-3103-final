@@ -6,7 +6,10 @@
                     <div class="section-title-wrapper text-center section-space--mb_60">
                         <h2 class="section-title font-width-light wow move-up">News & Articles</h2>
                         <br>
-                        <h6 class="section-sub-title mb-20 font-weight--bold wow move-up">View All Articles</h6>
+                        <h6 class="section-sub-title mb-20 font-weight--bold wow move-up">
+                            <router-link to="/view-all-articles">View All Articles </router-link>
+                        
+                        </h6>
                     </div>
                 </div>
             </div>
@@ -24,6 +27,7 @@
         name: 'ClinicPricing',
         components: {
             PricingFour
+            
         }
     };
 </script>
