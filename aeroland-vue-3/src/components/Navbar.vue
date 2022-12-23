@@ -6,8 +6,8 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="nav main-menu">
                         <li class="nav-item">
-                            <a class="nav-link" href="#home" @click="menuCollapseOnLinkClick">
-                                <span>HOME</span>
+                            <a class="nav-link" router-link to="/homepage" @click="menuCollapseOnLinkClick">
+                                <router-link to="/homepage">HOME</router-link>
                             </a>
                         </li>
 

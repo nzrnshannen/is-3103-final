@@ -171,6 +171,12 @@ const routes = [
         path: '/view-all-articles',
         name: 'ViewAllArticles',
         component: () => import(/* webpackChunkName: "BlogDetails" */ '../components/sections/ViewAllArticles.vue')
+    },
+
+    {
+        path: '/homepage',
+        name: 'homepage',
+        component: () => import('../views/HomeBranding.vue')
     }
 ];
   
