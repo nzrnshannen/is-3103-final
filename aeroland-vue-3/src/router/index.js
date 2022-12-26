@@ -238,6 +238,12 @@ const routes = [
         name: 'CompanyProfile',
         component: () => import('../components/CompanyProfile.vue'),
     },
+
+    {
+        path: '/about-financial-report',
+        name: 'FinancialReport',
+        component: () => import('../components/FinancialReport.vue'),
+    },
 ];
   
 const router = createRouter({
