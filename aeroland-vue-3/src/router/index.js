@@ -186,6 +186,11 @@ const routes = [
         name: 'E-Services',
         component: () => import('../components/sections/E-Services.vue'),
     },
+    {
+        path: '/helpdesk',
+        name: 'Help Desk',
+        component: () => import('../components/sections/HelpDesk.vue'),
+    },
 ];
   
 const router = createRouter({

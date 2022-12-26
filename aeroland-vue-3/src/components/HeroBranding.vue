@@ -6,7 +6,7 @@
                     <h2 class="h1 hero-content-title">Executive branding campaign</h2>
                     <h6 class="hero-content-subtitle mt-20">True branding starts from within. We create and adopt unique branding resolution to strengthen your business.</h6>
                     <div class="slider-button mt-30">
-                        <router-link to="/e-services" class="ht-btn ht-btn-md">Click ni please</router-link>
+                        <router-link to="/helpdesk" class="ht-btn ht-btn-md">Click ni please</router-link>
                     </div>
                 </div>
             </div>
