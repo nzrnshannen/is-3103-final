@@ -37,7 +37,7 @@
     import NewsArticlePreview from "./sections/NewsArticlePreview.vue";
 
     export default{
-        name: 'Article1',
+        name: 'Article2',
         components:{
         Navbar,
         NewsArticlePreview,
