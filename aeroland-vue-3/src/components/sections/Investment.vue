@@ -1,4 +1,5 @@
 <template>
+    <Logo/>
     <div class="product-showcase-video-wrapper section-space--pt_60 section-space--pb_120" id="investment">
         <div class="container-fluid container-fluid--cp-120">
             <div class="row align-items-center">
@@ -119,3 +120,19 @@
 }
 
 </style>
+
+<script>
+
+import Logo from '../Logo.vue'
+
+export default {
+name: 'E-Services',
+components: {
+   Logo,
+
+}
+
+
+}
+
+</script>
