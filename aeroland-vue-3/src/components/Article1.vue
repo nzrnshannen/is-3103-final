@@ -52,7 +52,7 @@
     Navbar,
     NewsArticlePreview,
     FooterMain
-}
+        }
     }
 </script>
 
