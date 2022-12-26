@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="pricing-table__footer">
-                    <a href="#" class="hover-style-link hover-style-link--green">Read More<span class="btn-icon"><i class="far fa-long-arrow-right"></i><div></div></span></a>
+                    <router-link to="/article-1" class="hover-style-link hover-style-link--green">Read More</router-link>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="pricing-table__footer">
-                    <a href="#" class="hover-style-link hover-style-link--green">Read More<span class="btn-icon"><i class="far fa-long-arrow-right"></i><div></div></span></a>
+                    <router-link to="/article-2" class="hover-style-link hover-style-link--green">Read More</router-link>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="pricing-table__footer">
-                    <a href="#" class="hover-style-link hover-style-link--green">Read More<span class="btn-icon"><i class="far fa-long-arrow-right"></i><div></div></span></a>
+                    <router-link to="/article-3" class="hover-style-link hover-style-link--green">Read More</router-link>
                 </div>
             </div>
         </div>
