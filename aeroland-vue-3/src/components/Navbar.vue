@@ -16,7 +16,7 @@
                                 <span>ABOUT US</span>    
                                 <div class= "dropdown about-us">
                                     <a href="#">History</a>
-                                    <a href="#">Company Profile</a>
+                                    <router-link to="/about-company-profile">Company Profile</router-link>
                                     <a href="#">Financial Report</a>
                                     <a href="#">Board of Directors</a>
                                     <a href="#">Corporate Officers</a>

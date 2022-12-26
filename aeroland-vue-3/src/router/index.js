@@ -232,6 +232,12 @@ const routes = [
         name: 'Article9',
         component: () => import('../components/Article9.vue'),
     },
+
+    {
+        path: '/about-company-profile',
+        name: 'CompanyProfile',
+        component: () => import('../components/CompanyProfile.vue'),
+    },
 ];
   
 const router = createRouter({
