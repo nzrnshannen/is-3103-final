@@ -41,6 +41,10 @@
         margin-top: 5rem;
     }
 
+    html{
+        scroll-behavior:smooth;
+    }
+
 </style>
 
 

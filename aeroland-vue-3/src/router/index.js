@@ -176,8 +176,62 @@ const routes = [
     {
         path: '/homepage',
         name: 'homepage',
-        component: () => import('../views/HomeBranding.vue')
-    }
+        component: () => import('../views/HomeBranding.vue'),
+    },
+
+    {
+        path: '/article-1',
+        name: 'Article1',
+        component: () => import('../components/Article1.vue'),
+    },
+
+    {
+        path: '/article-2',
+        name: 'Article2',
+        component: () => import('../components/Article2.vue'),
+    },
+
+    {
+        path: '/article-3',
+        name: 'Article3',
+        component: () => import('../components/Article3.vue'),
+    },
+
+    {
+        path: '/article-4',
+        name: 'Article4',
+        component: () => import('../components/Article4.vue'),
+    },
+
+    {
+        path: '/article-5',
+        name: 'Article5',
+        component: () => import('../components/Article5.vue'),
+    },
+
+    {
+        path: '/article-6',
+        name: 'Article6',
+        component: () => import('../components/Article6.vue'),
+    },
+
+    {
+        path: '/article-7',
+        name: 'Article7',
+        component: () => import('../components/Article7.vue'),
+    },
+
+    {
+        path: '/article-8',
+        name: 'Article8',
+        component: () => import('../components/Article8.vue'),
+    },
+
+    {
+        path: '/article-9',
+        name: 'Article9',
+        component: () => import('../components/Article9.vue'),
+    },
 ];
   
 const router = createRouter({
