@@ -181,6 +181,11 @@ const routes = [
         name: 'Common Provisions',
         component: () => import('../components/sections/CommonProvisions.vue'),
     },
+    {
+        path: '/e-services',
+        name: 'E-Services',
+        component: () => import('../components/sections/E-Services.vue'),
+    },
 ];
   
 const router = createRouter({
