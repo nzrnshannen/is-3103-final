@@ -17,7 +17,7 @@
                                 <div class= "dropdown about-us">
                                     <a href="#">History</a>
                                     <router-link to="/about-company-profile">Company Profile</router-link>
-                                    <a href="#">Financial Report</a>
+                                    <router-link to="/about-financial-report">Financial Report</router-link>
                                     <a href="#">Board of Directors</a>
                                     <a href="#">Corporate Officers</a>
                                     <a href="#">Awards & Distinction</a>
