@@ -47,7 +47,7 @@
                                 <div class="dropdown loans">
                                     <a href="#">Commmon Provisions</a>
                                     <a href="#">Employee's Loan</a>
-                                    <a href="#">Special Individual Loans</a>
+                                    <router-link to="/special-individual-loans">Special Individual Loans</router-link>
                                     <a href="#">PAL - Personal Advantage Loan</a>
                                     <a href="#">Commercial Loan</a>
                                     <a href="#">MicroFinance Loans</a>
