@@ -191,6 +191,11 @@ const routes = [
         name: 'Help Desk',
         component: () => import('../components/sections/HelpDesk.vue'),
     },
+    {
+        path: '/creditcashwallet',
+        name: 'CFI Credit Cash Wallet',
+        component: () => import('../components/sections/CreditCashWallet.vue'),
+    },
 ];
   
 const router = createRouter({
