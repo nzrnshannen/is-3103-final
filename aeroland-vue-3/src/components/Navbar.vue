@@ -27,7 +27,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#requirement" @click="menuCollapseOnLinkClick">
-                                <span>MEMBERSHIP</span>
+                                <router-link to="/membership">Membership</router-link>
                             </a>
                         </li>
                         <li class="nav-item">

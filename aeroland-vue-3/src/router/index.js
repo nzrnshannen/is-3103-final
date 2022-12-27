@@ -244,6 +244,13 @@ const routes = [
         name: 'FinancialReport',
         component: () => import('../components/FinancialReport.vue'),
     },
+
+    {
+        path: '/membership',
+        name: 'Membership',
+        component: () => import('../components/Membership.vue'),
+    },
+
 ];
   
 const router = createRouter({
