@@ -256,6 +256,12 @@ const routes = [
         name: 'SpecialIndividualLoans',
         component: () => import('../components/SpecialIndividualLoans.vue'),
     },
+
+    {
+        path: '/personal-adv-loan',
+        name: 'PersonalAdvantageLoan',
+        component: () => import ('../components/PersonalAdvantageLoan.vue'),
+    },
 ];
   
 const router = createRouter({

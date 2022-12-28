@@ -48,7 +48,7 @@
                                     <a href="#">Commmon Provisions</a>
                                     <a href="#">Employee's Loan</a>
                                     <router-link to="/special-individual-loans">Special Individual Loans</router-link>
-                                    <a href="#">PAL - Personal Advantage Loan</a>
+                                    <router-link to="/personal-adv-loan">PAL - Personal Advantage Loan</router-link>
                                     <a href="#">Commercial Loan</a>
                                     <a href="#">MicroFinance Loans</a>
                                     <a href="#">CFI Credit Cash Wallet</a>
