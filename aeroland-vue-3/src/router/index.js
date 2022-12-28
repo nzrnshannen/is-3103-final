@@ -262,6 +262,12 @@ const routes = [
         name: 'PersonalAdvantageLoan',
         component: () => import ('../components/PersonalAdvantageLoan.vue'),
     },
+
+    {
+        path: '/microfinance-loans',
+        name: 'MicrofinanceLoans',
+        component: () => import('../components/MicrofinanceLoans.vue'),
+    },
 ];
   
 const router = createRouter({

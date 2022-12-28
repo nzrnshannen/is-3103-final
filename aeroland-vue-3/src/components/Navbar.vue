@@ -50,7 +50,7 @@
                                     <router-link to="/special-individual-loans">Special Individual Loans</router-link>
                                     <router-link to="/personal-adv-loan">PAL - Personal Advantage Loan</router-link>
                                     <a href="#">Commercial Loan</a>
-                                    <a href="#">MicroFinance Loans</a>
+                                    <router-link to="/microfinance-loans">Microfinance Loans</router-link>
                                     <a href="#">CFI Credit Cash Wallet</a>
                                 </div>
                             </a>
