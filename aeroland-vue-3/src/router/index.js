@@ -274,6 +274,12 @@ const routes = [
         name: 'OnlineMembership',
         component: () => import('../components/OnlineMembership.vue'),
     },
+
+    {
+        path: '/cfi-videos',
+        name: 'CfiVideos',
+        component: () => import ('../components/CfiVideos.vue'),
+    },
 ];
   
 const router = createRouter({

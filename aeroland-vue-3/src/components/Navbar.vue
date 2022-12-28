@@ -64,7 +64,7 @@
                                     <a href="#">Help Desk</a>
                                     <router-link to="/online-membership">Online Membership</router-link>
                                     <a href="#">Download Forms</a>
-                                    <a href="#">CFI Videos</a>
+                                    <router-link to="/cfi-videos">CFI Videos</router-link>
                                     <a href="#">Calculator</a>
                                     <a href="#">Branch </a>
                                 </div>
