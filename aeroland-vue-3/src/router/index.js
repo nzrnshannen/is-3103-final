@@ -268,6 +268,12 @@ const routes = [
         name: 'MicrofinanceLoans',
         component: () => import('../components/MicrofinanceLoans.vue'),
     },
+
+    {
+        path: '/online-membership',
+        name: 'OnlineMembership',
+        component: () => import('../components/OnlineMembership.vue'),
+    },
 ];
   
 const router = createRouter({

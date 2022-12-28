@@ -11,7 +11,7 @@
             </div>
         <div class="microfinance-loans-description">
             <h3>Micro Finance Loans</h3>
-            <p>These are loans to fund the livelihood business of a member. These businesses are normally what we call as micro SMEs or SMEs that a member is engaged as a source of livelihood for his family. CFI has presently 2 classes of micro financing available for its members:</p>
+            <p>These are loans to fund the live lihood business of a member. These businesses are normally what we call as micro SMEs or SMEs that a member is engaged as a source of livelihood for his family. CFI has presently 2 classes of micro financing available for its members:</p>
             <hr>
         </div>
         <div class="microfinance-loans-classes">
@@ -38,7 +38,7 @@
     import FooterMain  from '../components/FooterMain.vue';
 
     export default{
-        name: 'SpecialIndividualLoans',
+        name: 'MicrofinanceLoans',
         components: {
             Navbar,
             FooterMain
@@ -54,7 +54,6 @@
     .microfinance-loans-container{
         background-color: rgba(247, 234, 217, 0.447);
         padding: 5rem;
-
     }
 
     .microfinance-loans-content{

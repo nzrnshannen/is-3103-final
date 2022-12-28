@@ -62,7 +62,7 @@
                                 <div class="dropdown support" style="width: 13rem">
                                     <a href="#">CFI E-Services</a>
                                     <a href="#">Help Desk</a>
-                                    <a href="#">Online Membership</a>
+                                    <router-link to="/online-membership">Online Membership</router-link>
                                     <a href="#">Download Forms</a>
                                     <a href="#">CFI Videos</a>
                                     <a href="#">Calculator</a>
