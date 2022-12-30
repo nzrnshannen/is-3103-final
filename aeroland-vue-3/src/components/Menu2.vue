@@ -20,13 +20,13 @@
                             </a>
                         </li>
                         <li class="menu-item centermenu" >
-                            <a class="" href="#CFI-Videos">
+                            <a class="" href="/cfi-videos">
                                 <img src="../assets/img/cfi-videos.jpg" width="">
                                 <div style="position:relative; left:-14px;">CFI Videos</div>
                             </a>
                         </li>
                         <li class="menu-item centermenu" >
-                            <a class="" href="#help-desk">
+                            <a class="" href="/helpdesk">
                                 <img src="../assets/img/helpdesk.jpg" width="">
                                 <div style="">Help Desk</div>
                             </a>

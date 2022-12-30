@@ -14,13 +14,14 @@
                             </a>
                         </li>
                         <li class="menu-item1 centermenu1" >
-                            <a class="" href="#Online-Membership">
+                            <a class="" href="/membership">
                                 <img src="../assets/img/onlinemembership.jpg" width="40%">
                                 <div style="margin-left:-2.5rem;">Online Membership</div>
+                                
                             </a>
                         </li>
                         <li class="menu-item1">
-                            <a class="" href="#E-Services" >
+                            <a class="" href="/e-services" >
                                 <img src="../assets/img/eservices.jpg">
                                 <div style="padding-left:2.1rem;">E-Services</div>
                             </a>

@@ -102,7 +102,7 @@
                                 </div> -->
                             </div>
                             <div class="hero-thumb">
-                                <img src="../assets/img/eServices.jpg" class="img-fluid" alt="hero thumb">
+                                <img src="../assets/img/eservices.jpg" class="img-fluid" alt="hero thumb">
                             </div>
                         </div>
                     </swiper-slide>
