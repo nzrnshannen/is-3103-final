@@ -1,12 +1,10 @@
 <template>
     <div class="main-container">
-        <!--Navbar below Logo-->
+        <Logo />
         <Navbar />
-         <!--Navbar above the Header Banner-->
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
             <HeroBranding />
-
-            <div class="box-image-area section-space--ptb_120" id="about">
+             <div class="box-image-area section-space--ptb_120" id="about">
                 <div class="container">
                     <div class="section-title-wrapper text-center section-space--mb_60 wow move-up">
                         <h2 class="section-title mb-15">Expand Your Business</h2>
@@ -15,90 +13,31 @@
                     <AboutExpand />
                 </div>
             </div>
-
-            <div class="feature-icon-list-area section-space--pb_120">
-                <div class="container">
-                    <div class="section-title-wrapper text-center section-space--mb_100">
-                        <h2 class="section-title mb-30">Receive real-time business analytics</h2>
-                        <div class="video-button-container video-popup">
-                            <div class="video-play">
-                                <i class="fa fa-play-circle"></i>
-                                <span class="video-text">INTRO & DEMO VIDEO</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <FeatureList />
-            </div>
-            <RequireList />
-            <FeatureTwo />
-
-            <div class="feature-list-progress-area pb-30">
-                <div class="container">
-                    <ProgressCircle />
-                </div>
-            </div>
-
-            <CurveShape>
-                <template v-slot:bgcolor>
-                    <path style="fill: #f6f5f9;
-                        stroke-miterlimit:10;" 
-                        d="M3360.5,97.739c-242,0-480-48.375-480-48.375
-                            S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
-                            S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z"/>
-                </template>
-            </CurveShape>
-            <div class="pricing-table-area bg-gray-2 pt-30" id="pricing">
-                <div class="pricing-table-title-area position-relative">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="section-title-wrapper text-center section-space--mb_60">
-                                    <h2 class="section-title font-width-light mb-15 wow move-up">Affordable for everyone!</h2>
-                                    <span class="section-text wow move-up">If you are planning on developing a product landing app or website, take a look at this beautiful-crafted and error-free HTML template.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pricing-table-content-area section-space--pb_90">
-                    <div class="container">
-                        <Pricing />
-                    </div>
-                </div>
-            </div>
-
-            <div class="brand-logo-area section-space--ptb_120" id="partner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="section-title-wrapper text-center section-space--mb_60">
-                                <h2 class="section-title mb-15 wow move-up">Trusted services from top-rated company</h2>
-                                <span class="section-text wow move-up">It is about us being able to offer help with the branding campaign, product presentation, and advertisement running across social media.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <BrandLogo />
-                </div>
-            </div>
+      
+            <Menu1/>
+           
+            <Menu2/>
             
             <!--HeroSoftware (Advisory/Announcement)-->
             <HeroSoftware />
             <!--HeroSofware (Advisory/Announcement)-->
-            
-            <Newsletter /> 
+          
             <NewsArticlePreview/>
-            <!--FooterMain (Contact Us) below the News Articles-->
+           
             <FooterMain />
-            <!--FooterMain (Contact Us) above the FooterBottom (Social Media Links)-->
+           
             <OffcanvasSearchBox />
         </div>
 
     </div>
+   
 </template>
 
+
 <script>
-    import Navbar from '../components/Navbar'
+    import Logo from '../components/Logo.vue'
+    import Menu1 from '../components/Menu1.vue'
+    import Menu2 from '../components/Menu2.vue'
     import HeroBranding from '../components/HeroBranding'
     import AboutExpand from '../components/AboutExpand'
     import FeatureList from '../components/FeatureList'
@@ -111,28 +50,62 @@
     import Newsletter from '../components/Newsletter'
     import FooterMain from '../components/FooterMain'
     import OffcanvasSearchBox from '../components/OffcanvasSearchBox'
+    import ThreeStepProcessWrap from '../components/ThreeStepProcessWrap'
+    import TestimonialTwo from '../components/TestimonialTwo'
+    import TestimonialThree from '../components/TestimonialThree'
+    import TestimonialOne from '../components/TestimonialOne'
+    import TestimonialFour from '../components/TestimonialFour'
+    import TeamTwo from '../components/TeamTwo'
+    import TeamOne from '../components/TeamOne'
+    import TabTwoContentOne from '../components/TabTwoContentOne'
+    import TabTwo from '../components/TabTwo'
+    import TabThree from '../components/TabThree'
+    import TabOne from '../components/TabOne'
+    import TabContentOne from '../components/TabContentOne'
+    import TabContentTwo from '../components/TabContentTwo'
+    import TabContentThree from '../components/TabContentThree'
+    import SideBarBlog from '../components/SidebarBlog.vue'
+    import Investment from '../components/sections/Investment.vue'
     import HeroSoftware from '../components/HeroSoftware.vue'
     import NewsArticlePreview from '../components/sections/NewsArticlePreview.vue'
     
-
     export default {
         name: 'HomeBranding',
         components: {
-    Navbar,
-    HeroBranding,
-    AboutExpand,
-    FeatureList,
-    RequireList,
-    FeatureTwo,
-    ProgressCircle,
-    CurveShape,
-    Pricing,
-    BrandLogo,
-    Newsletter,
-    FooterMain,
-    OffcanvasSearchBox,
-    HeroSoftware,
-    NewsArticlePreview
-},
-    }
+            Logo,
+            Navbar,
+            Menu1,
+            HeroBranding,
+            AboutExpand,
+            FeatureList,
+            RequireList,
+            FeatureTwo,
+            ProgressCircle,
+            CurveShape,
+            Pricing,
+            BrandLogo,
+            Newsletter,
+            FooterMain,
+            OffcanvasSearchBox,           
+            ThreeStepProcessWrap,
+            TestimonialTwo,
+            TestimonialThree,
+            TestimonialOne,
+            TestimonialFour,
+            TeamTwo,
+            TeamOne,
+            TabTwoContentOne,
+            TabTwo,
+            TabThree,
+            TabOne,
+            TabContentOne,
+            TabContentTwo,
+            TabContentThree,
+            SideBarBlog,
+            Menu2,
+            Investment,
+            HeroSoftware,
+            NewsArticlePreview   
+        },
+  }   
 </script>

@@ -192,9 +192,7 @@ export default function A11y({
   const handlePointerUp = () => {
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        if (!swiper.destroyed) {
-          swiper.a11y.clicked = false;
-        }
+        swiper.a11y.clicked = false;
       });
     });
   };
@@ -206,7 +204,6 @@ export default function A11y({
     const isActive = swiper.slides.indexOf(slideEl) === swiper.activeIndex;
     const isVisible = swiper.params.watchSlidesProgress && swiper.visibleSlides && swiper.visibleSlides.includes(slideEl);
     if (isActive || isVisible) return;
-    if (e.sourceCapabilities && e.sourceCapabilities.firesTouchEvents) return;
 
     if (swiper.isHorizontal()) {
       swiper.el.scrollLeft = 0;

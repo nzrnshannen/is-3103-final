@@ -2,53 +2,18 @@
     <header class="header-area navbar-light fixed-top" :class="{'is-sticky': isSticky}">
         <div class="container-fluid container-fluid--cp-150">
             <nav class="navbar navbar-expand-lg" id="navbar-example2">
-                <router-link to="/">
-                    <img src="../../assets/img/logo/logo-dark.png" alt="logo">
-                </router-link>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="header-config-wrapper btn-group">
-                    <button class="header-config btn" @click="toggleClass('addClass', 'active')">
-                        <i class="far fa-search"></i>
-                    </button>
-                    <router-link to="" class="ht-btn ht-btn--outline hire-btn d-none d-xl-block">Hire Us Now</router-link>
+                    
+                    <router-link to="" class="ht-btn ht-btn--outline hire-btn d-none d-xl-block">Call us right now!</router-link>
                 </div>
 
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                    <ul class="nav main-menu">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home" @click="menuCollapseOnLinkClick">
-                                <span>HOME</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#service" @click="menuCollapseOnLinkClick">
-                                <span>service</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#works" @click="menuCollapseOnLinkClick">
-                                <span>works</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#statistic" @click="menuCollapseOnLinkClick">
-                                <span>statistic</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#pricing" @click="menuCollapseOnLinkClick">
-                                <span>PRICING</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact" @click="menuCollapseOnLinkClick">
-                                <span>contact</span>
-                            </a>
-                        </li>
-                    </ul>
+                  
                 </div>
             </nav>
         </div>

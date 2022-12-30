@@ -166,6 +166,36 @@ const routes = [
         name: 'BlogDetails',
         component: () => import(/* webpackChunkName: "BlogDetails" */ '../views/blog/BlogDetails.vue'),
     },
+    
+    {
+        path: '/investment',
+        name: 'Investment',
+        component: () => import('../components/sections/Investment.vue'),
+    },
+    {
+        path: '/termsconditions',
+        name: 'Terms & Conditions',
+        component: () => import('../components/sections/Terms&Conditions.vue'),
+    },
+    {
+        path: '/commonprovisions',
+        name: 'Common Provisions',
+        component: () => import('../components/sections/CommonProvisions.vue'),
+    },
+    {
+        path: '/e-services',
+        name: 'E-Services',
+        component: () => import('../components/sections/E-Services.vue'),
+    },
+    {
+        path: '/helpdesk',
+        name: 'Help Desk',
+        component: () => import('../components/sections/HelpDesk.vue'),
+    },
+    {
+        path: '/creditcashwallet',
+        name: 'CFI Credit Cash Wallet',
+        component: () => import('../components/sections/CreditCashWallet.vue'),
 
     {
         path: '/view-all-articles',

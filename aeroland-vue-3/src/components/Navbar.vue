@@ -1,7 +1,24 @@
 <template>
-    <header class="header-area navbar-light fixed-top" :class="{'is-sticky': isSticky}">
+
+    <header class="header-area navbar-light fixed-top" :class="{'is-sticky': isSticky}">        
         <div class="container-fluid container-fluid--cp-150">
             <nav class="navbar navbar-expand-lg" id="navbar-example2">
+            
+            
+                <router-link to="/">
+                    <img src="../assets/img/cfi-logo.jpg" class="cfi-icon" alt="logo" width="450" height="105">
+                </router-link>
+                
+                <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="header-config-wrapper btn-group">
+                    
+                    <router-link to="" id="phone" class=" hire-btn d-none d-xl-block"><img src="../assets/img/PhoneIcon.png"><span><div class="call">Call us!</div><div>255-25-25</div></span></router-link>
+                </div>
+
+                
                  
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="nav main-menu">
@@ -32,7 +49,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#pricing" @click="menuCollapseOnLinkClick">
-                                <span>INVESTMENT</span>
+                                <router-link to="/investment">Investment</router-link>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -45,13 +62,13 @@
                             <a class="nav-link" href="#partner" @click="menuCollapseOnLinkClick">
                                 <span>LOANS</span>
                                 <div class="dropdown loans">
-                                    <a href="#">Commmon Provisions</a>
+                                    <router-link to="/commonprovisions">Common Provisions</router-link>
                                     <a href="#">Employee's Loan</a>
                                     <router-link to="/special-individual-loans">Special Individual Loans</router-link>
                                     <router-link to="/personal-adv-loan">PAL - Personal Advantage Loan</router-link>
                                     <a href="#">Commercial Loan</a>
                                     <router-link to="/microfinance-loans">Microfinance Loans</router-link>
-                                    <a href="#">CFI Credit Cash Wallet</a>
+                                     <router-link to="/creditcashwallet">CFI Credit Cash Wallet</router-link>
                                 </div>
                             </a>
                         </li>
@@ -60,10 +77,14 @@
                             <a class="nav-link" href="#partner" @click="menuCollapseOnLinkClick">
                                 <span>SUPPORT</span>
                                 <div class="dropdown support" style="width: 13rem">
-                                    <a href="#">CFI E-Services</a>
-                                    <a href="#">Help Desk</a>
+                                    <router-link to="/e-services">CFI E-Services</router-link>
+                   
+                                    <router-link to="/helpdesk">Help Desk</router-link>
+                         
                                     <router-link to="/online-membership">Online Membership</router-link>
+                                    
                                     <a href="#">Download Forms</a>
+                                    
                                     <router-link to="/cfi-videos">CFI Videos</router-link>
                                     <a href="#">Calculator</a>
                                     <a href="#">Branch </a>
@@ -75,10 +96,51 @@
                 </div>
             </nav>
         </div>
+
+        <hr>
+
     </header>
 </template>
 
 <style>
+
+#phone:hover {
+    transform: scale(1.1);
+}
+
+#phone span {
+    display:inline-block;
+    padding-left:1px;
+    padding-top: 17px;
+    
+   
+    
+
+    
+}
+#phone img {
+
+    width:40%;
+    margin-top:-17px;
+    margin-left: 19px;
+    
+}
+
+
+#phone span .call {
+margin-bottom: -6px;
+margin-left: 10px;
+margin-top: 25px;
+
+font-weight: 500;
+color: black;
+}
+
+.cfi-icon {
+        margin-top: 18px;
+}
+
+
     .nav-item .dropdown{
         display: none;
         position: absolute;
@@ -111,6 +173,7 @@
    
 
 </style>
+
 <script>
     export default {
         data(){
@@ -146,3 +209,4 @@
         },
     }
 </script>
+
