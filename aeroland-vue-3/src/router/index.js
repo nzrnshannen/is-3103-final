@@ -196,6 +196,7 @@ const routes = [
         path: '/creditcashwallet',
         name: 'CFI Credit Cash Wallet',
         component: () => import('../components/sections/CreditCashWallet.vue'),
+    },
 
     {
         path: '/view-all-articles',
