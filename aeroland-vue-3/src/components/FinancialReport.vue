@@ -34,7 +34,17 @@
         components: {
             Navbar,
             FooterMain
-        }
+        },
+
+        data(){
+            return{
+                report:[
+                    {
+                        text: 'testing financial report'
+                    },
+                ]
+            }
+        },
     }
 </script>
 
