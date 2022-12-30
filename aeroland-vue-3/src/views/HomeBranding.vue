@@ -1,20 +1,32 @@
 <template>
     <div class="main-container">
-       
         <Logo />
-        <!-- logo above the navbar -->
+        <Navbar />
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
             <HeroBranding />
+             <div class="box-image-area section-space--ptb_120" id="about">
+                <div class="container">
+                    <div class="section-title-wrapper text-center section-space--mb_60 wow move-up">
+                        <h2 class="section-title mb-15">Expand Your Business</h2>
+                        <span class="section-text">Plan ahead to make progress and lead the trend.</span>
+                    </div>
+                    <AboutExpand />
+                </div>
+            </div>
+      
             <Menu1/>
-            <!-- Menu1 Below the Head Banner -->
+           
             <Menu2/>
-            <!-- Menu2 Below Menu1 -->
+            
+            <!--HeroSoftware (Advisory/Announcement)-->
+            <HeroSoftware />
+            <!--HeroSofware (Advisory/Announcement)-->
+          
+            <NewsArticlePreview/>
            
+            <FooterMain />
            
-
-            
-            
-            
+            <OffcanvasSearchBox />
         </div>
 
     </div>
@@ -54,11 +66,14 @@
     import TabContentThree from '../components/TabContentThree'
     import SideBarBlog from '../components/SidebarBlog.vue'
     import Investment from '../components/sections/Investment.vue'
+    import HeroSoftware from '../components/HeroSoftware.vue'
+    import NewsArticlePreview from '../components/sections/NewsArticlePreview.vue'
     
     export default {
         name: 'HomeBranding',
         components: {
             Logo,
+            Navbar,
             Menu1,
             HeroBranding,
             AboutExpand,
@@ -89,8 +104,8 @@
             SideBarBlog,
             Menu2,
             Investment,
-
-            
-        }
-    }
+            HeroSoftware,
+            NewsArticlePreview   
+        },
+  }   
 </script>
