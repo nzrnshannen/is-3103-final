@@ -1,0 +1,29 @@
+[33mcommit cd1babe2558b4cdaa4c685f23476a6aff67b71ed[m[33m ([m[1;36mHEAD -> [m[1;32minvestment[m[33m)[m
+Author: Clint <clintenglis16@gmail.com>
+Date:   Thu Dec 8 09:42:28 2022 +0800
+
+    investment:router-link
+
+[33mcommit 8d7a33e40085824c0fea0fafc7233257c432bdba[m
+Author: Clint <clintenglis16@gmail.com>
+Date:   Wed Dec 7 23:05:52 2022 +0800
+
+    investment-complete
+
+[33mcommit 034f45482fc5a14337bbbf3dd1d8327506d3ee47[m[33m ([m[1;32mmenu-2[m[33m)[m
+Author: Clint <clintenglis16@gmail.com>
+Date:   Tue Dec 6 18:13:00 2022 +0800
+
+    menu-2:adding-comments;
+
+[33mcommit 97c48185a6c3bc68af9fb2a287c1139015f71f2d[m[33m ([m[1;32mdevelop[m[33m)[m
+Author: Clint <clintenglis16@gmail.com>
+Date:   Tue Dec 6 14:28:42 2022 +0800
+
+    1stdevelopment
+
+[33mcommit c4273a9156e43bfbb8e646e2b06abb26dff8b467[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Shannen Nazareno <19103991@usc.edu.ph>
+Date:   Tue Nov 29 02:36:32 2022 +0800
+
+    first commit: branch out from develop, not from master
