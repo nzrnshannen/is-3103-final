@@ -1,0 +1,41 @@
+
+.maintenance-wrapper .left-bg {
+    background-image: url("../img/other/page-maintenance-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+}
+.maintenance-logo {
+    margin-bottom: 60px;
+    @media #{$tablet-device, $large-mobile}{
+        margin-bottom: 40px;
+    }
+}
+.maintenance-title {
+    margin-bottom: 50px;
+    @media #{$large-mobile}{
+        margin-bottom: 20px;
+    }
+    & .section-title {
+        color: #6d70a6;
+    }
+}
+.countdown-wrapper-maintenance {
+    & .countdown-deals {
+        grid-gap: 0;
+    }
+    .flip-card__top {
+        @media #{$desktop-device, $large-mobile}{
+            font-size: 50px;
+        }
+    }
+}
+.maintenance-newsletter {
+    margin-top: 50px;
+    & .newsletter-form--two input {
+        min-width: 100%;
+        text-align: center;
+    }
+}
